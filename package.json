@@ -1,0 +1,20 @@
+{
+  "name": "dony_pizza_back",
+  "version": "1.0.0",
+  "description": "back end dony pizzas",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --trace-warnings src/index.js"
+  },
+  "keywords": [
+    "backend",
+    "server"
+  ],
+  "author": "Arthur Ruivo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.16.0"
+  }
+}
